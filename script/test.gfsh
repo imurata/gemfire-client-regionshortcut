@@ -1,0 +1,3 @@
+connect --locator 10.215.76.208[10334]
+query --query="select * from /exampleRegion"
+put --region=exampleRegion --key="1" --value="three"
